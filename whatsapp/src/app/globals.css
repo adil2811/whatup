@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .bg-primary {
+    @apply bg-[#00bfa5]; /* Apply the bg-teal-500 utility class */
+  }
+}
+::-webkit-scrollbar {
+  width: 6px!important;
+  height: 6px!important;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.2);
+}
+::-webkit-scrollbar-track {
+  background: hsla(0,0%,100%,.1);
+}
